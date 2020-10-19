@@ -6,3 +6,23 @@
   display: flex;
   justify-content: center;
 }
+
+.wrapper {
+  max-width: 720px;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+input {
+  display: block;
+}
+
+.formFieldText {
+  margin: 0.5rem 0;
+}
+
+.formFieldCheckbox {
+  input {
+    display: inline;
+  }
+}
